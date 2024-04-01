@@ -108,6 +108,15 @@ function applyBusyDays(busyDates) {
 }
 
 
+function planningEvent() {
+    if(this.classList.contains('planning')) {
+        this.classList.remove('planning');
+    } else {
+        this.classList.add('planning');
+    }
+}
+
+
 function initiateCalendar() {
     const listOfMonthsToDisplay = getListOfMonthsToDisplay(13);
 
@@ -147,6 +156,7 @@ function initiateCalendar() {
                 normalDay.classList.add('day');
                 normalDay.innerText = dayNumber;
                 normalDay.id = generateId(month.year, month.month + 1, dayNumber);
+                normalDay.addEventListener('click', planningEvent);
                 weekContainer.appendChild(normalDay);
                 dayCounter++;
 
@@ -156,6 +166,7 @@ function initiateCalendar() {
                 normalDay.classList.add('day');
                 normalDay.innerText = dayNumber;
                 normalDay.id = generateId(month.year, month.month + 1, dayNumber);
+                normalDay.addEventListener('click', planningEvent);
                 weekContainer.appendChild(normalDay);
                 dayCounter++;
 
@@ -174,6 +185,7 @@ function initiateCalendar() {
                 normalDay.classList.add('day');
                 normalDay.innerText = dayNumber;
                 normalDay.id = generateId(month.year, month.month + 1, dayNumber);
+                normalDay.addEventListener('click', planningEvent);
                 weekContainer.appendChild(normalDay);
                 dayCounter++;
             }

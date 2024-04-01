@@ -41,3 +41,7 @@ html {
     margin: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.planning {
+    background-color: rgb(138, 46, 184);
+}
