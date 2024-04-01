@@ -19,7 +19,7 @@ html {
     min-height: 50px;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 2px;
+    margin: 3px;
     color: white;
     display: flex;
     align-items: center;
@@ -43,5 +43,7 @@ html {
 }
 
 .planning {
-    background-color: rgb(138, 46, 184);
+    margin: 0;
+    border: 3px solid white;
+    border-radius: 20%;
 }
