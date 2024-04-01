@@ -14,7 +14,6 @@ html {
 
 .day {
     background-color: rgb(95, 104, 105);
-    margin: 2px;
     min-width: 50px;
     min-height: 50px;
     font-weight: bold;
@@ -45,5 +44,5 @@ html {
 .planning {
     margin: 0;
     border: 3px solid white;
-    border-radius: 20%;
+    border-radius: 15px;
 }
