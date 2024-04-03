@@ -29,6 +29,10 @@ html {
     background-color: rgb(209, 0, 0);
 }
 
+.notSure {
+    background-color: rgb(196, 127, 0);
+}
+
 .free {
     background-color: green;
 }

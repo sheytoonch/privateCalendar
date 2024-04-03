@@ -95,12 +95,12 @@ function generateId(year, month, day) {
 }
 
 
-function applyBusyDays(busyDates) {
+function applyBusyDays(busyDates, cssClassName) {
     for(let date of busyDates) {
         const id = generateId(date[0], date[1], date[2]);
         try {
             const busyDay = document.getElementById(id);
-            busyDay.classList.add('busy');
+            busyDay.classList.add(cssClassName);
         } catch (error) {
             console.log('-- id failed: ', id);
         }
@@ -208,4 +208,5 @@ function initiateCalendar() {
 
 
 initiateCalendar();
-applyBusyDays(busyDates);
+applyBusyDays(notSureDates, 'notSure');
+applyBusyDays(busyDates, 'busy');
