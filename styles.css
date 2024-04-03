@@ -33,6 +33,11 @@ html {
     background-color: rgb(196, 127, 0);
 }
 
+.doNotDisturb {
+    background-color: none;
+}
+
+
 .free {
     background-color: green;
 }

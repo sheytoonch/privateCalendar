@@ -210,3 +210,4 @@ function initiateCalendar() {
 initiateCalendar();
 applyBusyDays(notSureDates, 'notSure');
 applyBusyDays(busyDates, 'busy');
+applyBusyDays(doNotDisturbDates, 'doNotDisturb');
