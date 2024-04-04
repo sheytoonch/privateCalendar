@@ -100,6 +100,11 @@ function applyBusyDays(busyDates, cssClassName) {
         const id = generateId(date[0], date[1], date[2]);
         try {
             const busyDay = document.getElementById(id);
+            busyDay.value = {
+                id: id,
+                day: date[2],
+                description: date[3]
+            }
             busyDay.classList.add(cssClassName);
         } catch (error) {
             console.log('-- id failed: ', id);
@@ -117,6 +122,68 @@ function planningEvent() {
 }
 
 
+function showMonthSummaryEvent() {
+    const monthContainer = this.parentElement;
+    
+    if(this.classList.contains('monthSummaryOn')) {
+        // delete month summary
+        // class added to header of the month
+        //this.classList.remove('monthSummaryOn');
+        
+        // class added to the container itself
+        //const containerToRemove = monthContainer.getElementsByClassName("monthSummaryContainer");
+        //console.log(containerToRemove);
+        //monthContainer.remove(containerToRemove);
+
+    } else {
+        // add month summary
+        this.classList.add('monthSummaryOn');
+
+        // prepare month summary container
+        const monthSummaryContainer = document.createElement('div');
+        monthSummaryContainer.classList.add('monthSummaryContainer');
+        monthSummaryContainer.id = "monthSummaryContainer";
+
+        // get list of days with description to know how many events to list
+        const daysOfTheMonth = monthContainer.getElementsByClassName('day');
+        const daysWithDescription = [];
+        for(let day of daysOfTheMonth) {
+            if(day.classList.length > 1 && day.id) {
+                daysWithDescription.push(day);
+            }
+        }
+
+        // prepare list of descriptions
+        const listOfDescriptions = [];
+        for(let day of daysWithDescription) {
+            const description = day.value.description;
+            if(!listOfDescriptions.includes(description)) {
+                listOfDescriptions.push(description);
+            }
+        }
+
+        // show each description and add days to it
+        for(let description of listOfDescriptions) {
+            let newParagraph = document.createElement('p');
+            newParagraph.innerText = `- ${description}:`;
+
+            for(let day of daysWithDescription) {
+                if(day.value.description === description) {
+                    if(newParagraph.innerText.endsWith(':')) {
+                        newParagraph.innerText = `${newParagraph.innerText} ${day.value.day}`
+                    } else {
+                        newParagraph.innerText = `${newParagraph.innerText}, ${day.value.day}`
+                    }
+                }
+            }
+            monthSummaryContainer.appendChild(newParagraph);
+        }
+
+        monthContainer.appendChild(monthSummaryContainer);
+    }
+}
+
+
 function initiateCalendar() {
     const listOfMonthsToDisplay = getListOfMonthsToDisplay(13);
 
@@ -129,6 +196,7 @@ function initiateCalendar() {
         const monthHeader = document.createElement('div');
         monthHeader.innerText = `${month.name} - ${month.year}`;
         monthHeader.classList.add('monthHeader');
+        monthHeader.addEventListener('click', showMonthSummaryEvent);
         monthContainer.appendChild(monthHeader);
 
         // Initiate weeks container

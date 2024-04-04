@@ -37,16 +37,15 @@ html {
     background-color: none;
 }
 
-
 .free {
     background-color: green;
 }
 
 .monthHeader {
-    margin:auto;
+    margin-top: 25px;
+    margin-bottom: 5px;
     text-align: center;
     color: white;
-    margin: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -54,4 +53,18 @@ html {
     margin: 0;
     border: 3px solid white;
     border-radius: 15px;
+}
+
+.monthSummaryOn {
+    background-color: rgba(95, 104, 105, 0);
+}
+
+.monthSummaryContainer p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px;
+    margin-left: 15px;
+    padding: 5px;
+    word-wrap: break-word;
+    max-width: 350px;
 }
