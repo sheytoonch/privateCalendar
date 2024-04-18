@@ -91,6 +91,8 @@ const busyDates = [
     [2024, 11, 23, "wakacje"],
     [2024, 11, 24, "wakacje"]
 
+
+
 ];
 
 const notSureDates = [
@@ -101,7 +103,9 @@ const notSureDates = [
     [2024, 5, 3, "waiting for approval"],
     [2024, 5, 4, "waiting for approval"],
     [2024, 5, 5, "waiting for approval"],
-    [2024, 5, 10, "opera"]
+    [2024, 5, 10, "opera"],
+    [2024, 4, 27, "kino herbatka"],
+    [2024, 4, 28, "kino herbatka"]
 ]
 
 const doNotDisturbDates = [
