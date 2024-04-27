@@ -103,9 +103,10 @@ const notSureDates = [
     [2024, 5, 3, "waiting for approval"],
     [2024, 5, 4, "waiting for approval"],
     [2024, 5, 5, "waiting for approval"],
-    [2024, 5, 10, "opera"],
-    [2024, 4, 27, "kino herbatka"],
-    [2024, 4, 28, "kino herbatka"]
+    [2024, 7, 27, "szubin"],
+    [2024, 7, 28, "szubin"],
+    [2024, 8, 11, "szubin"]
+
 ]
 
 const doNotDisturbDates = [
