@@ -64,8 +64,28 @@ const busyDates = [
 
     [2024, 6, 14, "poznan"],
     [2024, 6, 15, "poznan"],
-    [2024, 6, 16, "poznan"],
+    [2024, 6, 16, "poznan"]
 
+
+
+];
+
+const notSureDates = [
+    [2024, 4, 19, "spacer"],
+
+    [2024, 5, 1, "waiting for approval"],
+    [2024, 5, 2, "waiting for approval"],
+    [2024, 5, 3, "waiting for approval"],
+    [2024, 5, 4, "waiting for approval"],
+    [2024, 5, 5, "waiting for approval"],
+    [2024, 7, 27, "szubin"],
+    [2024, 7, 28, "szubin"],
+    [2024, 8, 11, "szubin"],
+
+    [2024, 10, 28, "wakacje"],
+    [2024, 10, 29, "wakacje"],
+    [2024, 10, 30, "wakacje"],
+    [2024, 10, 31, "wakacje"],
     [2024, 11, 1, "wakacje"],
     [2024, 11, 2, "wakacje"],
     [2024, 11, 3, "wakacje"],
@@ -90,22 +110,6 @@ const busyDates = [
     [2024, 11, 22, "wakacje"],
     [2024, 11, 23, "wakacje"],
     [2024, 11, 24, "wakacje"]
-
-
-
-];
-
-const notSureDates = [
-    [2024, 4, 19, "spacer"],
-
-    [2024, 5, 1, "waiting for approval"],
-    [2024, 5, 2, "waiting for approval"],
-    [2024, 5, 3, "waiting for approval"],
-    [2024, 5, 4, "waiting for approval"],
-    [2024, 5, 5, "waiting for approval"],
-    [2024, 7, 27, "szubin"],
-    [2024, 7, 28, "szubin"],
-    [2024, 8, 11, "szubin"]
 
 ]
 
