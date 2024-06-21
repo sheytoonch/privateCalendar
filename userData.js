@@ -1,16 +1,7 @@
 // Example format: [year, month, day, description]
 
 const busyDates = [
-    [2024, 4, 6, "tajne rzeczy"],
-    [2024, 4, 7, "tajne rzeczy"],
-    [2024, 4, 20, "tajne rzeczy"],
-    [2024, 4, 21, "tajne rzeczy"],
-    [2024, 5, 11, "tajne rzeczy"],
-    [2024, 5, 12, "tajne rzeczy"],
-    [2024, 5, 25, "tajne rzeczy"],
-    [2024, 5, 26, "tajne rzeczy"],
-    [2024, 6, 8, "tajne rzeczy"],
-    [2024, 6, 9, "tajne rzeczy"],
+
     [2024, 6, 22, "tajne rzeczy"],
     [2024, 6, 23, "tajne rzeczy"],
     [2024, 6, 29, "tajne rzeczy"],
@@ -34,17 +25,6 @@ const busyDates = [
     [2024, 10, 26, "tajne rzeczy"],
     [2024, 10, 27, "tajne rzeczy"],
 
-    [2024, 4, 3, "lekcje"],
-    [2024, 4, 10, "lekcje"],
-    [2024, 4, 17, "lekcje"],
-    [2024, 4, 24, "lekcje"],
-    [2024, 5, 8, "lekcje"],
-    [2024, 5, 15, "lekcje"],
-    [2024, 5, 22, "lekcje"],
-    [2024, 5, 29, "lekcje"],
-    [2024, 6, 5, "lekcje"],
-    [2024, 6, 12, "lekcje"],
-    [2024, 6, 19, "lekcje"],
     [2024, 6, 26, "lekcje"],
     [2024, 7, 3, "lekcje"],
     [2024, 7, 10, "lekcje"],
@@ -52,29 +32,13 @@ const busyDates = [
     [2024, 7, 24, "lekcje"],
     [2024, 7, 31, "lekcje"],
 
-    [2024, 4, 4, "bydgoszcz"],
-    [2024, 4, 10, "wakacje"],
-    [2024, 4, 11, "wakacje"],
-    [2024, 4, 12, "wakacje"],
-    [2024, 4, 13, "wakacje"],
-    [2024, 4, 14, "wakacje"],
-    [2024, 4, 15, "wakacje"],
-    [2024, 4, 16, "wakacje"],
-    [2024, 4, 17, "wakacje"],
-
-    [2024, 6, 14, "poznan"],
-    [2024, 6, 15, "poznan"],
-    [2024, 6, 16, "poznan"]
-
-
+    [2024, 8, 23, "malarstwo"],
+    [2024, 8, 24, "malarstwo"],
+    [2024, 8, 25, "malarstwo"],
 
 ];
 
 const notSureDates = [
-
-    [2024, 7, 12, "ship"],
-    [2024, 7, 13, "ship"],
-    [2024, 7, 14, "ship"],
 
     [2024, 7, 27, "szubin"],
     [2024, 7, 28, "szubin"],
