@@ -102,6 +102,9 @@ const notSureDates = [
     [2024, 12, 15, "wakacje"],
     [2024, 12, 16, "wakacje"],
 
+    [2024, 8, 16, "picie"],
+
+
 ]
 
 const doNotDisturbDates = [
