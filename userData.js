@@ -36,6 +36,21 @@ const busyDates = [
     [2024, 8, 24, "malarstwo"],
     [2024, 8, 25, "malarstwo"],
 
+    [2024, 8, 21, "dr"],
+    [2024, 9, 30, "dr"],
+    [2025, 1, 22, "dr"],
+
+    [2024, 10, 19, "wycieczka"],
+    [2024, 10, 20, "wycieczka"],
+    [2024, 10, 21, "wycieczka"],
+    [2024, 10, 22, "wycieczka"],
+    [2024, 10, 23, "wycieczka"],
+    [2024, 10, 24, "wycieczka"],
+    [2024, 10, 25, "wycieczka"],
+    [2024, 10, 26, "wycieczka"],
+    [2024, 10, 27, "wycieczka"],
+
+
 ];
 
 const notSureDates = [
