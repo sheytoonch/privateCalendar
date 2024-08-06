@@ -55,14 +55,6 @@ const busyDates = [
 
 const notSureDates = [
 
-    [2024, 7, 27, "szubin"],
-    [2024, 7, 28, "szubin"],
-    [2024, 8, 11, "szubin"],
-
-    [2024, 10, 28, "wakacje"],
-    [2024, 10, 29, "wakacje"],
-    [2024, 10, 30, "wakacje"],
-    [2024, 10, 31, "wakacje"],
     [2024, 11, 1, "wakacje"],
     [2024, 11, 2, "wakacje"],
     [2024, 11, 3, "wakacje"],
@@ -86,7 +78,29 @@ const notSureDates = [
     [2024, 11, 21, "wakacje"],
     [2024, 11, 22, "wakacje"],
     [2024, 11, 23, "wakacje"],
-    [2024, 11, 24, "wakacje"]
+    [2024, 11, 24, "wakacje"],
+    [2024, 11, 25, "wakacje"],
+    [2024, 11, 26, "wakacje"],
+    [2024, 11, 27, "wakacje"],
+    [2024, 11, 28, "wakacje"],
+    [2024, 11, 29, "wakacje"],
+    [2024, 11, 30, "wakacje"],
+    [2024, 12, 1, "wakacje"],
+    [2024, 12, 2, "wakacje"],
+    [2024, 12, 3, "wakacje"],
+    [2024, 12, 4, "wakacje"],
+    [2024, 12, 5, "wakacje"],
+    [2024, 12, 6, "wakacje"],
+    [2024, 12, 7, "wakacje"],
+    [2024, 12, 8, "wakacje"],
+    [2024, 12, 9, "wakacje"],
+    [2024, 12, 10, "wakacje"],
+    [2024, 12, 11, "wakacje"],
+    [2024, 12, 12, "wakacje"],
+    [2024, 12, 13, "wakacje"],
+    [2024, 12, 14, "wakacje"],
+    [2024, 12, 15, "wakacje"],
+    [2024, 12, 16, "wakacje"],
 
 ]
 
