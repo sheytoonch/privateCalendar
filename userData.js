@@ -2,15 +2,12 @@
 
 const busyDates = [
 
-    [2025, 6, 22, "spacer"],
 
-    [2025, 6, 25, "zwiedzanie"],
-    [2025, 6, 26, "zwiedzanie"],
-    [2025, 6, 27, "zwiedzanie"],
-
-    [2025, 6, 29, "tajne rzeczy"],
 
     [2025, 7, 4, "opener"],
+
+    [2025, 7, 20, "tajne rzeczy"],
+
 
     [2025, 7, 31, "wood"],
     [2025, 8, 1, "wood"],
@@ -21,6 +18,7 @@ const busyDates = [
 ];
 
 const notSureDates = [
+    [2025, 7, 15, "tajne rzeczy"]
 
 
 ]
