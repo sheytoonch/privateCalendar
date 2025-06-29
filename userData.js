@@ -27,7 +27,8 @@ const doNotDisturbDates = [
 
     [2025, 6, 28, "zwiedzanie"],
 
-    [2025, 7, 5, "opener"],
+    [2025, 7, 4, "bydgoszcz"],
+    [2025, 7, 5, "bydgoszcz"],
 
     [2025, 7, 30, "wood"],
 
