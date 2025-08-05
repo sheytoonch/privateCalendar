@@ -2,38 +2,28 @@
 
 const busyDates = [
 
+    [2025, 8, 24, "tajne rzeczy"],
 
 
-    [2025, 7, 4, "opener"],
+    [2025, 8, 7, "lekarz"],
+    [2025, 8, 14, "lekarz"],
+    [2025, 8, 21, "lekarz"],
 
-    [2025, 7, 20, "tajne rzeczy"],
-
-
-    [2025, 7, 31, "wood"],
-    [2025, 8, 1, "wood"],
-    [2025, 8, 2, "wood"],
-    [2025, 8, 3, "wood"]
+    [2025, 10, 22, "opera"]
 
 
 ];
 
 const notSureDates = [
-    [2025, 7, 15, "tajne rzeczy"]
-
 
 ]
 
 const doNotDisturbDates = [
 
-    [2025, 6, 28, "zwiedzanie"],
+    [2026, 7, 21, "ben"],
 
-    [2025, 7, 4, "bydgoszcz"],
-    [2025, 7, 5, "bydgoszcz"],
-
-    [2025, 7, 30, "wood"],
-
-    [2025, 9, 10, "oczy"]
-
+    [2025, 11, 12, "szum"],
+    [2025, 11, 13, "tom"]
 ]
 
 const freeDates = [
