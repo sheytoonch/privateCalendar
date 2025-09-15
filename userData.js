@@ -11,6 +11,7 @@ const busyDates = [
     [2025, 9, 24, "tajne rzeczy"],
     [2025, 9, 28, "tajne rzeczy"],
 
+    [2025, 10, 11, "urodziny"],
     [2025, 10, 22, "opera"],
     [2025, 10, 25, "poznan"],
     [2025, 12, 30, "spłata"]
