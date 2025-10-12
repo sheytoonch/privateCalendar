@@ -21,7 +21,8 @@ const busyDates = [
 ];
 
 const notSureDates = [
-    [2025, 10, 20, "wiki"]
+    [2025, 10, 20, "wiki"],
+    [2025, 10, 21, "kris"]
 ]
 
 const doNotDisturbDates = [
