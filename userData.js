@@ -1,14 +1,7 @@
 // Example format: [year, month, day, description]
 
 const busyDates = [
-    [2026, 7, 20, "zakopane"],
-    [2026, 7, 21, "zakopane"],
-    [2026, 7, 22, "zakopane"],
-    [2026, 7, 23, "zakopane"],
-    [2026, 7, 24, "zakopane"],
-    [2026, 7, 25, "zakopane"],
-    [2026, 7, 26, "zakopane"],
-    [2026, 7, 27, "zakopane"],
+
 
     [2026, 3, 12, "tajne rzeczy"],
     [2026, 3, 17, "tajne rzeczy"],
@@ -40,12 +33,24 @@ const busyDates = [
     [2026, 6, 18, "tajne rzeczy"],
     [2026, 6, 23, "tajne rzeczy"],
     [2026, 6, 25, "tajne rzeczy"],
-    [2026, 6, 30, "tajne rzeczy"]
+    [2026, 6, 30, "tajne rzeczy"],
+
+    [2026, 7, 20, "zakopane"],
+    [2026, 7, 21, "zakopane"],
+    [2026, 7, 22, "zakopane"],
+    [2026, 7, 23, "zakopane"],
+    [2026, 7, 24, "zakopane"],
+    [2026, 7, 25, "zakopane"],
+    [2026, 7, 26, "zakopane"],
+    [2026, 7, 27, "zakopane"]
 
 ];
 
 const notSureDates = [
-
+    [2026, 11, 12, "szum"],
+    [2026, 11, 12, "tom"],
+    [2026, 7, 23, "tom"]
+    
 ]
 
 const doNotDisturbDates = [
