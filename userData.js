@@ -42,7 +42,17 @@ const busyDates = [
     [2026, 7, 24, "zakopane"],
     [2026, 7, 25, "zakopane"],
     [2026, 7, 26, "zakopane"],
-    [2026, 7, 27, "zakopane"]
+    [2026, 7, 27, "zakopane"],
+
+    [2026, 5, 3, "spain"],
+    [2026, 5, 4, "spain"],
+    [2026, 5, 5, "spain"],
+    [2026, 5, 6, "spain"],
+    [2026, 5, 7, "spain"],
+    [2026, 5, 8, "spain"],
+    [2026, 5, 9, "spain"],
+    [2026, 5, 10, "spain"]
+
 
 ];
 
